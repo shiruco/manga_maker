@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B61E30B08CBE2DCF1947A8F /* Pods_mangamakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D109B8D38A9454C313E4629 /* Pods_mangamakerTests.framework */; };
+		4968F34B0E16A98077A36D33 /* Pods_mangamaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B7724385C8D037A065638D /* Pods_mangamaker.framework */; };
+		8FBE5921284C718CAF760B83 /* Pods_mangamakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9E2FBCFBF9DC18D80EA7FD /* Pods_mangamakerUITests.framework */; };
+		A9B031242083A79900AEEEC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B031232083A79900AEEEC2 /* AppDelegate.swift */; };
+		A9B031262083A79900AEEEC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B031252083A79900AEEEC2 /* ViewController.swift */; };
+		A9B031292083A79900AEEEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B031272083A79900AEEEC2 /* Main.storyboard */; };
+		A9B0312B2083A79B00AEEEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B0312A2083A79B00AEEEC2 /* Assets.xcassets */; };
+		A9B0312E2083A79B00AEEEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B0312C2083A79B00AEEEC2 /* LaunchScreen.storyboard */; };
+		A9B031392083A79B00AEEEC2 /* mangamakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B031382083A79B00AEEEC2 /* mangamakerTests.swift */; };
+		A9B031442083A79B00AEEEC2 /* mangamakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B031432083A79B00AEEEC2 /* mangamakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9B031352083A79B00AEEEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B031182083A79900AEEEC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B0311F2083A79900AEEEC2;
+			remoteInfo = mangamaker;
+		};
+		A9B031402083A79B00AEEEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B031182083A79900AEEEC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B0311F2083A79900AEEEC2;
+			remoteInfo = mangamaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081D12A8E63D7BDC123DA2B8 /* Pods-mangamakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mangamakerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mangamakerUITests/Pods-mangamakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C50FA5E8C72C7CF00CA08E4 /* Pods-mangamaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mangamaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-mangamaker/Pods-mangamaker.release.xcconfig"; sourceTree = "<group>"; };
+		97B7724385C8D037A065638D /* Pods_mangamaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mangamaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D109B8D38A9454C313E4629 /* Pods_mangamakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mangamakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B031202083A79900AEEEC2 /* mangamaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mangamaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B031232083A79900AEEEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9B031252083A79900AEEEC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9B031282083A79900AEEEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9B0312A2083A79B00AEEEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9B0312D2083A79B00AEEEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9B0312F2083A79B00AEEEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B031342083A79B00AEEEC2 /* mangamakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mangamakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B031382083A79B00AEEEC2 /* mangamakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mangamakerTests.swift; sourceTree = "<group>"; };
+		A9B0313A2083A79B00AEEEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B0313F2083A79B00AEEEC2 /* mangamakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mangamakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B031432083A79B00AEEEC2 /* mangamakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mangamakerUITests.swift; sourceTree = "<group>"; };
+		A9B031452083A79B00AEEEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBDCC67E6458456162A356C /* Pods-mangamaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mangamaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mangamaker/Pods-mangamaker.debug.xcconfig"; sourceTree = "<group>"; };
+		B1AA10A3B4403A6D4115BF7E /* Pods-mangamakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mangamakerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mangamakerTests/Pods-mangamakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF9E2FBCFBF9DC18D80EA7FD /* Pods_mangamakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mangamakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C646C2500BD2BC6FF984FF /* Pods-mangamakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mangamakerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mangamakerTests/Pods-mangamakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F914721D128DB5F031142D8D /* Pods-mangamakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mangamakerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mangamakerUITests/Pods-mangamakerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B0311D2083A79900AEEEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4968F34B0E16A98077A36D33 /* Pods_mangamaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B031312083A79B00AEEEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61E30B08CBE2DCF1947A8F /* Pods_mangamakerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0313C2083A79B00AEEEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBE5921284C718CAF760B83 /* Pods_mangamakerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13DD63160A3D4FC6193778C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97B7724385C8D037A065638D /* Pods_mangamaker.framework */,
+				9D109B8D38A9454C313E4629 /* Pods_mangamakerTests.framework */,
+				DF9E2FBCFBF9DC18D80EA7FD /* Pods_mangamakerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4652771B73AE83C479F13B53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDCC67E6458456162A356C /* Pods-mangamaker.debug.xcconfig */,
+				3C50FA5E8C72C7CF00CA08E4 /* Pods-mangamaker.release.xcconfig */,
+				B1AA10A3B4403A6D4115BF7E /* Pods-mangamakerTests.debug.xcconfig */,
+				E6C646C2500BD2BC6FF984FF /* Pods-mangamakerTests.release.xcconfig */,
+				081D12A8E63D7BDC123DA2B8 /* Pods-mangamakerUITests.debug.xcconfig */,
+				F914721D128DB5F031142D8D /* Pods-mangamakerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9B031172083A79900AEEEC2 = {
+			isa = PBXGroup;
+			children = (
+				A9B031222083A79900AEEEC2 /* mangamaker */,
+				A9B031372083A79B00AEEEC2 /* mangamakerTests */,
+				A9B031422083A79B00AEEEC2 /* mangamakerUITests */,
+				A9B031212083A79900AEEEC2 /* Products */,
+				4652771B73AE83C479F13B53 /* Pods */,
+				13DD63160A3D4FC6193778C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B031212083A79900AEEEC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B031202083A79900AEEEC2 /* mangamaker.app */,
+				A9B031342083A79B00AEEEC2 /* mangamakerTests.xctest */,
+				A9B0313F2083A79B00AEEEC2 /* mangamakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B031222083A79900AEEEC2 /* mangamaker */ = {
+			isa = PBXGroup;
+			children = (
+				A9B031232083A79900AEEEC2 /* AppDelegate.swift */,
+				A9B031252083A79900AEEEC2 /* ViewController.swift */,
+				A9B031272083A79900AEEEC2 /* Main.storyboard */,
+				A9B0312A2083A79B00AEEEC2 /* Assets.xcassets */,
+				A9B0312C2083A79B00AEEEC2 /* LaunchScreen.storyboard */,
+				A9B0312F2083A79B00AEEEC2 /* Info.plist */,
+			);
+			path = mangamaker;
+			sourceTree = "<group>";
+		};
+		A9B031372083A79B00AEEEC2 /* mangamakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B031382083A79B00AEEEC2 /* mangamakerTests.swift */,
+				A9B0313A2083A79B00AEEEC2 /* Info.plist */,
+			);
+			path = mangamakerTests;
+			sourceTree = "<group>";
+		};
+		A9B031422083A79B00AEEEC2 /* mangamakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B031432083A79B00AEEEC2 /* mangamakerUITests.swift */,
+				A9B031452083A79B00AEEEC2 /* Info.plist */,
+			);
+			path = mangamakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B0311F2083A79900AEEEC2 /* mangamaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B031482083A79B00AEEEC2 /* Build configuration list for PBXNativeTarget "mangamaker" */;
+			buildPhases = (
+				60F671270521B44D29DDF8AE /* [CP] Check Pods Manifest.lock */,
+				A9B0311C2083A79900AEEEC2 /* Sources */,
+				A9B0311D2083A79900AEEEC2 /* Frameworks */,
+				A9B0311E2083A79900AEEEC2 /* Resources */,
+				23B51D7A9317123A9030852A /* [CP] Embed Pods Frameworks */,
+				B41977DCF88CE6C9B302FC58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mangamaker;
+			productName = mangamaker;
+			productReference = A9B031202083A79900AEEEC2 /* mangamaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9B031332083A79B00AEEEC2 /* mangamakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B0314B2083A79B00AEEEC2 /* Build configuration list for PBXNativeTarget "mangamakerTests" */;
+			buildPhases = (
+				393FAF40A85509EB6FB8210E /* [CP] Check Pods Manifest.lock */,
+				A9B031302083A79B00AEEEC2 /* Sources */,
+				A9B031312083A79B00AEEEC2 /* Frameworks */,
+				A9B031322083A79B00AEEEC2 /* Resources */,
+				312B8009CF04A9E149914B34 /* [CP] Embed Pods Frameworks */,
+				DC4B1F94B1708B91DA547B96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B031362083A79B00AEEEC2 /* PBXTargetDependency */,
+			);
+			name = mangamakerTests;
+			productName = mangamakerTests;
+			productReference = A9B031342083A79B00AEEEC2 /* mangamakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9B0313E2083A79B00AEEEC2 /* mangamakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B0314E2083A79B00AEEEC2 /* Build configuration list for PBXNativeTarget "mangamakerUITests" */;
+			buildPhases = (
+				9E378A184402609DF83D8D53 /* [CP] Check Pods Manifest.lock */,
+				A9B0313B2083A79B00AEEEC2 /* Sources */,
+				A9B0313C2083A79B00AEEEC2 /* Frameworks */,
+				A9B0313D2083A79B00AEEEC2 /* Resources */,
+				C2FF8D9A293827A9E688332B /* [CP] Embed Pods Frameworks */,
+				E3626EA9B8C68E7612FC1BCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B031412083A79B00AEEEC2 /* PBXTargetDependency */,
+			);
+			name = mangamakerUITests;
+			productName = mangamakerUITests;
+			productReference = A9B0313F2083A79B00AEEEC2 /* mangamakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B031182083A79900AEEEC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = com.maroton;
+				TargetAttributes = {
+					A9B0311F2083A79900AEEEC2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A9B031332083A79B00AEEEC2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A9B0311F2083A79900AEEEC2;
+					};
+					A9B0313E2083A79B00AEEEC2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A9B0311F2083A79900AEEEC2;
+					};
+				};
+			};
+			buildConfigurationList = A9B0311B2083A79900AEEEC2 /* Build configuration list for PBXProject "mangamaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9B031172083A79900AEEEC2;
+			productRefGroup = A9B031212083A79900AEEEC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B0311F2083A79900AEEEC2 /* mangamaker */,
+				A9B031332083A79B00AEEEC2 /* mangamakerTests */,
+				A9B0313E2083A79B00AEEEC2 /* mangamakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B0311E2083A79900AEEEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B0312E2083A79B00AEEEC2 /* LaunchScreen.storyboard in Resources */,
+				A9B0312B2083A79B00AEEEC2 /* Assets.xcassets in Resources */,
+				A9B031292083A79900AEEEC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B031322083A79B00AEEEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0313D2083A79B00AEEEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23B51D7A9317123A9030852A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mangamaker/Pods-mangamaker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mangamaker/Pods-mangamaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		312B8009CF04A9E149914B34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mangamakerTests/Pods-mangamakerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		393FAF40A85509EB6FB8210E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mangamakerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F671270521B44D29DDF8AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mangamaker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E378A184402609DF83D8D53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mangamakerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B41977DCF88CE6C9B302FC58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mangamaker/Pods-mangamaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2FF8D9A293827A9E688332B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mangamakerUITests/Pods-mangamakerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4B1F94B1708B91DA547B96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mangamakerTests/Pods-mangamakerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3626EA9B8C68E7612FC1BCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mangamakerUITests/Pods-mangamakerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B0311C2083A79900AEEEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B031262083A79900AEEEC2 /* ViewController.swift in Sources */,
+				A9B031242083A79900AEEEC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B031302083A79B00AEEEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B031392083A79B00AEEEC2 /* mangamakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0313B2083A79B00AEEEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B031442083A79B00AEEEC2 /* mangamakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9B031362083A79B00AEEEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B0311F2083A79900AEEEC2 /* mangamaker */;
+			targetProxy = A9B031352083A79B00AEEEC2 /* PBXContainerItemProxy */;
+		};
+		A9B031412083A79B00AEEEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B0311F2083A79900AEEEC2 /* mangamaker */;
+			targetProxy = A9B031402083A79B00AEEEC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B031272083A79900AEEEC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B031282083A79900AEEEC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9B0312C2083A79B00AEEEC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B0312D2083A79B00AEEEC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9B031462083A79B00AEEEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9B031472083A79B00AEEEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9B031492083A79B00AEEEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBDCC67E6458456162A356C /* Pods-mangamaker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKK37487L2;
+				INFOPLIST_FILE = mangamaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maroton.mangamaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9B0314A2083A79B00AEEEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C50FA5E8C72C7CF00CA08E4 /* Pods-mangamaker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKK37487L2;
+				INFOPLIST_FILE = mangamaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maroton.mangamaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9B0314C2083A79B00AEEEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1AA10A3B4403A6D4115BF7E /* Pods-mangamakerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKK37487L2;
+				INFOPLIST_FILE = mangamakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maroton.mangamakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mangamaker.app/mangamaker";
+			};
+			name = Debug;
+		};
+		A9B0314D2083A79B00AEEEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C646C2500BD2BC6FF984FF /* Pods-mangamakerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKK37487L2;
+				INFOPLIST_FILE = mangamakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maroton.mangamakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mangamaker.app/mangamaker";
+			};
+			name = Release;
+		};
+		A9B0314F2083A79B00AEEEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 081D12A8E63D7BDC123DA2B8 /* Pods-mangamakerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKK37487L2;
+				INFOPLIST_FILE = mangamakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maroton.mangamakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mangamaker;
+			};
+			name = Debug;
+		};
+		A9B031502083A79B00AEEEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F914721D128DB5F031142D8D /* Pods-mangamakerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKK37487L2;
+				INFOPLIST_FILE = mangamakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maroton.mangamakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mangamaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B0311B2083A79900AEEEC2 /* Build configuration list for PBXProject "mangamaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B031462083A79B00AEEEC2 /* Debug */,
+				A9B031472083A79B00AEEEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B031482083A79B00AEEEC2 /* Build configuration list for PBXNativeTarget "mangamaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B031492083A79B00AEEEC2 /* Debug */,
+				A9B0314A2083A79B00AEEEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B0314B2083A79B00AEEEC2 /* Build configuration list for PBXNativeTarget "mangamakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B0314C2083A79B00AEEEC2 /* Debug */,
+				A9B0314D2083A79B00AEEEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B0314E2083A79B00AEEEC2 /* Build configuration list for PBXNativeTarget "mangamakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B0314F2083A79B00AEEEC2 /* Debug */,
+				A9B031502083A79B00AEEEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9B031182083A79900AEEEC2 /* Project object */;
+}
